@@ -1,0 +1,33 @@
+{
+  "name": "loftschool",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/max_manchak/loftschool-cv.git"
+  },
+  "keywords": [
+    "CV"
+  ],
+  "author": "Max Manchak",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/max_manchak/loftschool-cv#readme",
+  "devDependencies": {
+    "autoprefixer": "",
+    "browser-sync": "",
+    "cssnano": "",
+    "gulp-imagemin": "",
+    "gulp-postcss": "",
+    "gulp-rigger": "",
+    "gulp-uglify": "",
+    "gulp-webserver": "",
+    "postcss-mixins": "",
+    "postcss-nested": "",
+    "postcss-simple-vars": "",
+    "postcss-smart-import": ""
+  }
+}

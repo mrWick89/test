@@ -1,0 +1,59 @@
+.header {
+    background-color: #eff3f7;
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 39px;
+        padding-bottom: 37px;
+        max-width: 1200px;
+    }
+    &::after {
+        display: table;
+        width: 100%;
+        height: 3px;
+        background-color: #1c667a;
+        background-image: linear-gradient(to right, rgba(28, 102, 122, 0.9) 0%, rgba(246, 250, 254, 0.9) 0%, rgba(216, 216, 216, 0.9) 0%, rgba(242, 246, 250, 0.9) 0%, rgba(28, 102, 122, 0.9) 48%, rgba(242, 246, 250, 0.9) 100%);
+        content: '';
+    }
+}
+
+.logo {
+    font-size: 0;
+    @mixin sprite;
+    width: 243px;
+    height: 42px;
+    background-position: -5px -77px;
+    cursor: pointer;
+}
+
+
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    &__li {
+        margin-right: 24px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__item {
+        width: 47px;
+        height: 47px;
+        font-size: 0;
+        @mixin sprite;
+
+        &--vk {background-position: -258px -119px;}
+        &--tw {background-position: -258px -5px;}
+        &--fb {background-position: -5px -129px;}
+        &--git {background-position: -119px -129px;}
+        &--vk:hover {background-position: -233px -176px;}
+        &--tw:hover {background-position: -258px -62px;}
+        &--fb:hover {background-position: -62px -129px;}
+        &--git:hover {background-position: -176px -129px;}
+    }
+}
